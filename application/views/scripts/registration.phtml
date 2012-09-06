@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <?php echo $this->partial('inc.head.phtml'); ?>
+    </head>
+
+    <body>
+        <section id="body">
+            <section id="content"><!--content-->
+                <div class="wrapper">
+                    <div id="regForm">
+                        <a href="/"><img src="/design/img/logo.png" alt="LEGALMAG" class="logo"></a>
+                        <?php echo $this->layout()->content; ?>
+                        <div id="enterForm">
+                            <form>
+                                <p>Уже зарегистрированы?</p>
+                                <label for="enterForm-email">E-mail</label><input type="email" name="enterForm-email" id="enterForm-email">
+                                <label for="enterForm-password">Пароль</label><input type="password" name="enterForm-password" id="enterForm-password">
+                                <input type="submit" class="buttonEnterForm" value="Войти в Legal Mag">
+                                <a href="">Восстановления пароля >></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </body>
+</html>

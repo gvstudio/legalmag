@@ -1,0 +1,176 @@
+<form id="personalquestionForm">
+    <dl>
+        <dt><label for="question-head">Заголовок вопроса:</label></dt>
+        <dd>
+            <input type="text" id="question-head" name="question-head" required="" autofocus="">
+            <span>Поле обязательно для заполнения</span>
+        </dd>
+        <dt><label for="question-situation">Опишите подробно ситуацию:</label></dt>
+        <dd>
+            <textarea id="question-situation" name="question-situation" required></textarea>
+            <span>Поле обязательно для заполнения</span>
+        </dd>
+        <dt>
+        Тема вопроса:
+        <span>Укажите тему: это поможет найти специалистов для вашей ситуации</span>
+        </dt>
+        <dd>
+            <div class="field first">
+                <ul>
+                    <li>
+                        <input type="radio" name="type" value="0" id="question-privat" >
+                        <label for="question-privat" class="caption">Частный вопрос</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="type" value="1" id="question-juridical">
+                        <label for="question-juridical" class="caption">Вопрос о бизнесе</label>
+                    </li>
+                </ul>
+            </div>
+            <div id="selectionChoose" class="selectionChoose">
+                <div class="head">
+                    «&nbsp;<a href="" class="backlink">Назад</a>
+                </div>
+                <div class="body first">
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="checkbox__1" id="checkbox__1">
+                            <label for="checkbox__1">Семья</label>
+                            <span>брак, имущество супругов, алименты, и другие вопросы</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__2" id="checkbox__2">
+                            <label for="checkbox__2">Труд. Занятость</label>
+                            <span>трудоустройство и увольнение, заработная плата, гарантии прав работников, и другие вопросы</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__3" id="checkbox__3">
+                            <label for="checkbox__3">Частный вопрос</label>
+                            <span>Подпункт, Подпункт, Подпункт, Подпункт</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__4" id="checkbox__4">
+                            <label for="checkbox__4">Частный вопрос</label>
+                            <span>Подпункт, Подпункт, Подпункт, Подпункт</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__5" id="checkbox__5">
+                            <label for="checkbox__5">Частный вопрос</label>
+                            <span>Подпункт, Подпункт, Подпункт, Подпункт</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__6" id="checkbox__6">
+                            <label for="checkbox__6">Частный вопрос</label>
+                            <span>Подпункт, Подпункт, Подпункт, Пinput[name=type]одпункт</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body second">
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="checkbox__1" id="checkbox__1">
+                            <label for="checkbox__1">Семья123</label>
+                            <span>брак, имущество супругов, алименты, и другие вопросы</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__2" id="checkbox__2">
+                            <label for="checkbox__2">Труд. Занятость</label>
+                            <span>трудоустройство и увольнение, заработная плата, гарантии прав работников, и другие вопросы</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__3" id="checkbox__3">
+                            <label for="checkbox__3">Частный вопрос</label>
+                            <span>Подпункт, Подпункт, Подпункт, Подпункт</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__4" id="checkbox__4">
+                            <label for="checkbox__4">Частный вопрос</label>
+                            <span>Подпункт, Подпункт, Подпункт, Подпункт</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__5" id="checkbox__5">
+                            <label for="checkbox__5">Частный вопрос</label>
+                            <span>Подпункт, Подпункт, Подпункт, Подпункт</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="checkbox__6" id="checkbox__6">
+                            <label for="checkbox__6">Частный вопрос</label>
+                            <span>Подпункт, Подпункт, Подпункт, Подпункт</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </dd>
+        <dt>
+        Вид вопроса:
+        </dt>
+        <dd>
+            <div class="field">
+                <ul>
+                    <li>
+                        <input type="radio" name="paid" value="0" id="question-free" checked>
+                        <label for="question-free" class="captionB">Бесплатный</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="paid" value="1" id="question-pay">
+                        <label for="question-pay"  class="captionB">Платный</label>
+                    </li>
+                </ul>
+            </div>
+        </dd>
+        <div class="paidBlock">
+        <dt>Стоимость вопроса:</dt>
+        <dd>
+            <div class="question-amount">
+                <div class="slider1"></div>
+                <input type="text" class="amount1">
+                <p>рублей</p>
+                <ul>
+                    <li class="easy">Простой вопрос</li>
+                    <li class="normal">Обычный вопрос</li>
+                    <li class="hard">Сложный вопрос</li>
+                </ul>
+            </div>
+        </dd>
+        </div>
+    </dl>
+    <div class="buttonHolder">
+        <input type="submit" class="buttonClear" value="Очистить">
+        <input type="submit" class="buttonSendQuestion" value="Отправить вопрос">
+    </div>
+</form>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#personalquestionForm .selectionChoose').hide();
+        $('#personalquestionForm .selectionChoose .body').hide();
+        if ($('#personalquestionForm input[name=paid]').val() == '0') {
+                $('#personalquestionForm .paidBlock').hide();
+            }
+        
+        $('#personalquestionForm input[name=type]').change(function(){
+            $('#personalquestionForm .field.first').hide();
+            $('#personalquestionForm .selectionChoose').show();
+            if ($(this).val() == '0') {
+                $('#personalquestionForm .selectionChoose .body.first').show();
+            } else {
+                $('#personalquestionForm .selectionChoose .body.second').show();
+            }
+        });
+        
+        $('#personalquestionForm .backlink').click(function(){
+            $('#personalquestionForm .selectionChoose').hide();
+            $('#personalquestionForm .selectionChoose .body').hide();
+            $('#personalquestionForm .field.first').show();
+            $('#personalquestionForm input[name=type]').attr('checked', false);
+            return false;
+        });
+        
+        $('#personalquestionForm input[name=paid]').change(function(){
+            if ($(this).val() == '1') {
+                $('#personalquestionForm .paidBlock').show();
+            } else {
+                $('#personalquestionForm .paidBlock').hide();
+            }
+        });
+    });
+</script>

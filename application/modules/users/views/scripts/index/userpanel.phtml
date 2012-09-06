@@ -1,0 +1,14 @@
+<?php if ($this->auth->hasIdentity()) { ?>
+    <div id="logged">
+        Привет,&nbsp;<a class="enter" href=""><?php echo $this->auth->getIdentity()->name; ?>!</a>
+        <a class="register" href="<?php echo Rastor_Url::get('logout'); ?>">Выйти</a>
+        <div class="sep"></div>
+    </div>
+<?php } else { ?>
+    <div id="login">
+        <a class="enter modal" href="#loginpanel">Войти</a>
+        <a class="register" href="<?php echo Rastor_Url::get('registration'); ?>">Зарегистрироваться</a>
+    </div>
+
+    <?php echo $this->action('login', 'index', 'users'); ?>
+<?php } ?>

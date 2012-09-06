@@ -1,0 +1,20 @@
+<?php if ($this->auth) { ?>
+    <nav class="auth">
+        <ul>
+            <li class="active"><a href="">Лента вопросов</a></li>
+            <li><a href="">Каталог</a></li>
+            <li><a href="">Личный кабинет</a></li>
+            <li ><a href="">Вопросы и ответы</a></li>
+            <li><a href="">Как это работает?</a></li>
+        </ul>
+    </nav>
+<?php } else { ?>
+    <nav>
+        <ul>
+            <li class="active"><a href="">Лента вопросов</a></li>
+            <li><a href="">Каталог</a></li>
+            <li><a href="">Вопросы и ответы</a></li>
+            <li><a href="">Как это работает?</a></li>
+        </ul>
+    </nav>
+<?php } ?>
