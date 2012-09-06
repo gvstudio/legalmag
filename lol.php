@@ -13,7 +13,7 @@ if (get_magic_quotes_gpc()) {
 // yo!
 
 echo "this mega star message";
-
+echo"this mega star message by atom";
 
 function echoWorlds(){
 		echo "hello worlds";
