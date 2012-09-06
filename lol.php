@@ -22,3 +22,6 @@ function echoWorlds(){
 function echoDima(){
 		echo "hello Dima!";
 }
+function echwo()
+{
+}
