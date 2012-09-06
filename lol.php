@@ -11,3 +11,5 @@ if (get_magic_quotes_gpc()) {
     array_walk_recursive($_REQUEST, 'stripslashes_gpc');
 }
 // yo!
+
+echo "this mega star message";
