@@ -13,3 +13,8 @@ if (get_magic_quotes_gpc()) {
 // yo!
 
 echo "this mega star message";
+
+
+function echoWorlds(){
+		echo "hello worlds";
+}
