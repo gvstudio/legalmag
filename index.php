@@ -21,3 +21,5 @@ $application->bootstrap()
         ->run();
 		
 		//trtrtrtr
+
+phpinfo();
