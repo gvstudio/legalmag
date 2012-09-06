@@ -18,3 +18,7 @@ echo"this mega star message by atom";
 function echoWorlds(){
 		echo "hello worlds";
 }
+
+function echoDima(){
+		echo "hello Dima!";
+}
