@@ -20,6 +20,7 @@ include_once 'application/inc.php';
 $application->bootstrap()
         ->run();
 		
-		//trtrtrtr
 
 phpinfo();
+
+//I add this comment for no reason...
